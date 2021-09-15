@@ -1,5 +1,5 @@
-FROM ngix:latest
+FROM hshar/webapp
 
-COPY . /usr/sharae/nginx/html
+ADD . /var/www/html
 
 EXPOSE 8090
